@@ -3,8 +3,6 @@ import time
 
 cap = cv2.VideoCapture(0)
 
-face_locatinos = []
-
 while True:
     start = time.time()
     ret, frame = cap.read()
